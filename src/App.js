@@ -1,14 +1,12 @@
 import ThemeContextProvider from "./contexts/ThemeContext";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <nav>
-        <h2>Cliff</h2>
-      </nav>
       <div className="App">
         <ThemeContextProvider>
-          
+          <Navbar />
         </ThemeContextProvider>
       </div>
     </>

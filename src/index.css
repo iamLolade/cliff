@@ -9,11 +9,11 @@
 
 nav {
   display: flex;
-  margin: 10px auto;
-  margin-left: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 50px;
   font-size: 1.5rem;
   letter-spacing: 3px;
   text-transform: capitalize;
-  color: #333;
 }
 
