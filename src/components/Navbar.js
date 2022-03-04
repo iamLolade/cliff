@@ -8,7 +8,7 @@ class Navbar extends Component {
     render() { 
         return (
             <ThemeContext.Consumer>{(context) => {
-                const { lightTheme, light, dark } = context;
+                const { lightTheme, light, dark, toggleTheme } = context;
                 const theme = lightTheme ? light : dark
                 return (
                     <nav style={
@@ -18,6 +18,7 @@ class Navbar extends Component {
                         }
                         }>
                         <h2>Cliff</h2>
+                        <button onClick={toggleTheme}>👓</button>
                     </nav>
 
                 )
