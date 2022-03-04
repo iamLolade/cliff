@@ -6,17 +6,23 @@ class Navbar extends Component {
     
     state = {  } 
     render() { 
-        const { lightTheme, light, dark } = this.context;
-        const theme = lightTheme ? light : dark
         return (
-            <nav style={
-                {
-                    background: theme.ui,
-                    color: theme.syntax
-                }
-                }>
-                <h2>Cliff</h2>
-            </nav>
+            <ThemeContext.Consumer>{(context) => {
+                const { lightTheme, light, dark } = context;
+                const theme = lightTheme ? light : dark
+                return (
+                    <nav style={
+                        {
+                            background: theme.ui,
+                            color: theme.syntax
+                        }
+                        }>
+                        <h2>Cliff</h2>
+                    </nav>
+
+                )
+            }}
+            </ThemeContext.Consumer>
         );
     }
 }
