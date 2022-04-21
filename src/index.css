@@ -7,19 +7,31 @@
   font-family: Poppins;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 10px;
-  padding-left: 50px;
-  font-size: 1.5rem;
-  letter-spacing: 3px;
-  text-transform: capitalize;
+body {
+  background: url('https://images.hdqwalls.com/wallpapers/journey-goes-on-ny.jpg') no-repeat fixed;
+  background-size: cover;
 }
 
-nav button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
+.App {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 960px;
+  color: #333;
+}
+
+.nav {
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 2rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.313);
+  border-radius: 6px;
+}
+
+.nav h1 {
+  letter-spacing: 5px;
+}
+
+.nav p {
+  font-size: 1.5rem;
 }
