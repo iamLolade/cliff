@@ -1,6 +1,6 @@
 # Cliff - Book List Demo Application
 
-### Users can add and remove books from the list
+## Users can add and remove books from the list
 
 ![Screenshot](/images/preview.png)
 
