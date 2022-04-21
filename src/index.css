@@ -83,3 +83,35 @@ img {
   font-size: 1.8rem;
   text-align: center;
 }
+
+form {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.233);
+  margin: 6px 0;
+  border: 0;
+  border-radius: 6px;
+  height: 60px;
+  text-indent: 10px;
+  outline: transparent;
+}
+
+button {
+  margin: 10px auto;
+  padding: 6px 20px;
+  display: block;
+  border-radius: 6px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.671);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
