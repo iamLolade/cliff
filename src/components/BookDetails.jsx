@@ -10,7 +10,7 @@ const BookDetails = ({ book }) => {
                 <div className="title">{ book.title }</div>
                 <div className="author">{ book.author }</div>
             </div>
-            <div className="bin"><img src="images/bin.png" alt="bin" /></div>
+            <div className="bin"><img src="images/bin.png" alt="bin" onClick={() => removeBook(book.id)} /></div>
         </li>
      );
 }
