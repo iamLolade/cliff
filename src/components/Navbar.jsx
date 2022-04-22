@@ -6,7 +6,9 @@ const Navbar = () => {
 
     return ( 
         <div className="nav">
-            <h1>Cliff</h1>
+            <div className="head">
+                <h1>Cliff</h1><span className="logo"><img src="/images/read.png" alt="logp" /></span>
+            </div>
             <p>Currently you have { books.length } { books.length === 1 ? `book` : `books`} to get through...</p>
         </div>
      );

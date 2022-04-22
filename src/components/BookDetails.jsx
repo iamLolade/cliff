@@ -8,7 +8,7 @@ const BookDetails = ({ book }) => {
         <li className="book-details">
             <div>
                 <div className="title">{ book.title }</div>
-                <div className="author">{ book.author }</div>
+                <div className="author">. { book.author }</div>
             </div>
             <div className="bin"><img src="images/bin.png" alt="bin" onClick={() => dispatch({type: "REMOVE_BOOK", id: book.id})} /></div>
         </li>
