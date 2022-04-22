@@ -2,7 +2,7 @@
 
 ## Users can add and remove books from the list
 
-![Screenshot](/images/preview.png)
+![Screenshot](/public/images/preview.png)
 
 ## Available Scripts
 
