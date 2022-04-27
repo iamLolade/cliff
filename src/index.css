@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+:root {
+  --base-borderRadius: 6px
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,8 +28,8 @@ body {
   padding: 10px 20px;
   font-size: 1.8rem;
   text-align: center;
-  background: rgba(255, 255, 255, 0.876);
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.955);
+  border-radius: var(--base-borderRadius);
 }
 
 .nav h1 {
@@ -35,6 +39,7 @@ body {
 
 .nav p {
   font-size: 0.9rem;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -51,8 +56,8 @@ body {
 .book-list ul {
   padding: 0;
   list-style-type: none;
-  background: rgba(255, 255, 255, 0.503);
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.597);
+  border-radius: var(--base-borderRadius);
 }
 
 .book-list li { 
@@ -69,15 +74,18 @@ body {
   font-weight: bold;
   font-size: 1.6rem;
   text-transform: capitalize;
+  margin-bottom: .3px;
 }
 
 .book-list .author {
   font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
   text-transform: capitalize;
 }
 
 img {
-  width: 50px;
+  width: 49.7px;
   cursor: pointer;
 }
 
@@ -100,7 +108,7 @@ input {
   background: rgba(255, 255, 255, 0.321);
   margin: 6px 0;
   border: 0;
-  border-radius: 6px;
+  border-radius: var(--base-borderRadius);;
   height: 60px;
   text-indent: 10px;
   outline: transparent;
@@ -111,7 +119,7 @@ button {
   margin: 10px auto;
   padding: 6px 20px;
   display: block;
-  border-radius: 6px;
+  border-radius: var(--base-borderRadius);;
   height: 50px;
   background: rgba(255, 255, 255, 0.965);
   font-size: 1rem;
@@ -129,15 +137,13 @@ button {
 
 .logo {
   width: 50px;
-  margin-top: 20px;
-  margin-left: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .emptyLogo {
-  width: 50px;
+  width: 45px;
   padding-top: 150px;
   margin-left: 15px;
   opacity: 0.7;
 }
-
-/* https://images.hdqwalls.com/wallpapers/journey-goes-on-ny.jpg */
